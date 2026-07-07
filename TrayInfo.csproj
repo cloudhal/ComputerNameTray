@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>TrayInfo</AssemblyName>
+    <RootNamespace>TrayInfo</RootNamespace>
+
+    <!-- Metadata shown in Explorer/Task Manager and used by the installer's
+         Add/Remove Programs entry and Intune detection rule. Bump Version on
+         each release. -->
+    <Version>1.0.0</Version>
+    <Company>Hollyport Capital</Company>
+    <Product>TrayInfo</Product>
+    <AssemblyTitle>TrayInfo</AssemblyTitle>
+    <Description>Shows the computer name and system details in the Windows system tray.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="10.0.9" />
+  </ItemGroup>
+
+</Project>

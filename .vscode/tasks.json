@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/ComputerNameTray.csproj",
+                "${workspaceFolder}/TrayInfo.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/ComputerNameTray.csproj",
+                "${workspaceFolder}/TrayInfo.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/ComputerNameTray.csproj"
+                "${workspaceFolder}/TrayInfo.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
